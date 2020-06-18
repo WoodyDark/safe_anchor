@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module SafeAnchorHelper
+module SafeAnchorUrlHelper
   include ActionView::Helpers::UrlHelper
   alias rails_default_link_to link_to
 
