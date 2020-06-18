@@ -31,7 +31,6 @@ SafeAnchor is secure-by-default.
 Turning off sanitization.
 ```
 <%= link_to "Dangerous Anchor", "javascript: alert('Boo!')", keep_dirty: true %>
-
 # <a keep_dirty="true" href="javascript: alert('Boo!')">Dangerous Anchor</a>
 ```
 
